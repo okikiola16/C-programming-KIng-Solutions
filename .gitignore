@@ -1,2 +1,7 @@
-.o
-*/
+# Ignore compiled executables but keep source code
+*
+!*.c
+!*.C
+!*.md
+!*/
+!.gitignore
