@@ -3,8 +3,12 @@
 int main (void)
 {
     int grade, grader;
+    do {
     printf("Enter grade: ");
     scanf("%d", &grade);
+    }
+    while (grade < 0 && grade > 100);
+   
     grader = grade / 10;
     switch (grader)
     {
